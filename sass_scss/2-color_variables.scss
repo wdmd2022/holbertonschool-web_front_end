@@ -1,0 +1,13 @@
+$texty-color: #3d3d3d;
+$back-color: #6D6D6D;
+
+body {
+    color: $texty-color;
+    background-color: $back-color;
+}
+p {
+    color: $texty-color;
+}
+h2 {
+    background-color: $back-color;
+}
