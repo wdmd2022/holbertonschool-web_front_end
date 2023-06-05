@@ -1,2 +1,4 @@
 # Time for some FRONT END WEB DEVELOPMENT
-oh yeah!
+This project is about Sass/scss
+
+It's like CSS but semantically cool
