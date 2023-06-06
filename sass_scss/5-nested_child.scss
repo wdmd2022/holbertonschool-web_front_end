@@ -1,0 +1,5 @@
+/* assign a text color to elements inside body tags, + to any elements of class .red that are the first children of the body, using nested delcarations */
+body {
+    color: #3D3D3D;
+    & > .red { color: #FF0000; }
+}
