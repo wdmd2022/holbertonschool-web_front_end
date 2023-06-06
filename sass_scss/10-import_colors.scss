@@ -1,0 +1,8 @@
+/* assign text color $red from 10-colors.scss to the class .red
+assign text color $green from 10-colors.scss to the class .green
+assign text color $blue from 10-colors.scss to the class .blue
+you must use @import */
+@import '10-colors';
+.red { color: $red; }
+.green { color: $green; }
+.blue { color: $blue; }

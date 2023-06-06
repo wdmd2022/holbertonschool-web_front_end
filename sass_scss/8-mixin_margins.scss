@@ -1,0 +1,12 @@
+/* assign margin left and right 10px to body tags, 15px to div tags, using a mixin */
+@mixin divmargins {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div {
+    @include divmargins();
+}
