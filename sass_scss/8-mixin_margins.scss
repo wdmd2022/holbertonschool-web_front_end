@@ -8,5 +8,5 @@ body {
     margin-right: 10px;
 }
 div {
-    @include divmargins();
+    @include divmargins()
 }
