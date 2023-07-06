@@ -825,13 +825,13 @@
     padding: 0;
   }
 
-  .form-search .search-icon {
+  .search-button .search-icon {
     fill: var(--color-white);
     width: 1.5rem;
     height: 1.5rem;
   }
 
-  .form-search [input="search"] {
+  .form-search input[type="search"] {
     display: inline-block;
     color: var(--color-white);
     padding-right: 2rem;
@@ -847,7 +847,7 @@
     transition: width .4s cubic-bezier(0, 0.795, 0, 1);
   }
 
-  .form-search [input="search"]:focus {
+  .form-search input[type="search"]:focus {
     position: relative;
     width: 15rem;
     z-index: 1;
